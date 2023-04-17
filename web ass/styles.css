@@ -1,0 +1,58 @@
+.container-fluid {
+    background-color: #F0EBCE;
+    padding: 70px;
+    margin: 0;
+}
+.container {
+    background-color: #CFB784;
+    width: 1000px;
+    height: 680px;
+    margin: auto;
+}
+h1 {
+    color: #224B0C;
+    text-align: center;
+    font-size: 80px;
+    font-family: "Lucida Hanwriting";
+}
+.label {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5em 1em;
+    width: 40%;
+    margin-right: auto;
+    text-align: right;
+    float: left;
+    row-gap: 20px;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
+label {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 30px;
+    padding-top: 15px;
+}
+input {
+    width: 370px;
+    height: 35px;
+    flex: 1 1 40%;
+    margin: 15px 20px;
+}
+.row {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    width: 150px;
+    height: 40px;
+    background-color: #224B0C;
+    color: #F0EBCE;
+    font-size: 18px;
+    margin-top: 20px;
+}
